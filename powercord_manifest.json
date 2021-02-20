@@ -1,0 +1,8 @@
+{
+    "name": "ActivityStyleEmbeds",
+    "description": "Changes embeds to look like the (removed) Activity Tab styled embeds",
+    "version": "0.0.9",
+    "author": "11pixels",
+    "theme": "ActivityStyleEmbeds.theme.css",
+    "license": "unknown"
+}
