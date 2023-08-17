@@ -1,7 +1,7 @@
 /**
 * @name ActivityStyleEmbeds
 * @author 11pixels
-* @version 0.3
+* @version 0.3.1
 * @invite vUN9sNW
 * @description Changes embeds to look like the (removed) Activity Tab styled embeds
 */
@@ -172,8 +172,25 @@
 .embedAuthor-TJIHp5 .embedAuthorIcon-3pnkS4+.embedAuthorName-pGyUPR {
   display: flex;
 }
-.embedMedia-1mdWSP .imageContainer-10XenG {
+.embedFull-1HGV2S .embedMedia-1mdWSP .imageContainer-10XenG,
+.embedFull-1HGV2S .embedVideo-2ixt5A {
   justify-content: center;
+}
+.embedFull-1HGV2S .wrapper-1FP9YQ {
+  height: 100%;
+}
+.embedFull-1HGV2S:not(:has(.embedTitle-2n1pEb)) .embedImage-2Ynqkh:has(+.embedFooter-3dj0UE) {
+  margin-bottom: 0;
+}
+.embedFull-1HGV2S .embedImage-2Ynqkh .imageWrapper-oMkQl4 {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.embedFull-1HGV2S .embedImage-2Ynqkh+.embedFooter-3dj0UE {
+  margin-top: 0;
+}
+.embedFull-1HGV2S .grid-1aWVsE.hasThumbnail-388RMe .embedTitle-2n1pEb {
+  margin-right: 16px;
 }
 /* SourceCheck fix */
 html body #app-mount .embed-hKpSrO .embedLink-1TLNja::after {
