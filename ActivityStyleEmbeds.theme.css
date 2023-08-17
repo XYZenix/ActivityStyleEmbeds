@@ -1,7 +1,7 @@
 /**
 * @name ActivityStyleEmbeds
-* @author 11pixels#2004
-* @version 0.2
+* @author 11pixels
+* @version 0.3
 * @invite vUN9sNW
 * @description Changes embeds to look like the (removed) Activity Tab styled embeds
 */
@@ -167,6 +167,13 @@
 }
 .embedWrapper-1MtIDg.embedFull-1HGV2S .embedVideo-2ixt5A {
   width: calc(100% + 32px) !important;
+}
+/* aug 17 2023 fix */
+.embedAuthor-TJIHp5 .embedAuthorIcon-3pnkS4+.embedAuthorName-pGyUPR {
+  display: flex;
+}
+.embedMedia-1mdWSP .imageContainer-10XenG {
+  justify-content: center;
 }
 /* SourceCheck fix */
 html body #app-mount .embed-hKpSrO .embedLink-1TLNja::after {
