@@ -1,7 +1,7 @@
 /**
 * @name ActivityStyleEmbeds
 * @author 11pixels
-* @version 0.3.2
+* @version 0.3.3
 * @invite vUN9sNW
 * @description Changes embeds to look like the (removed) Activity Tab styled embeds
 */
@@ -161,10 +161,6 @@
 }
 .embedWrapper-1MtIDg.embedFull-1HGV2S {
   transition: .17s transform, .17s background, .17s box-shadow;
-}
-.embedWrapper-1MtIDg.embedFull-1HGV2S:hover {
-  transform: translateY(-1px);
-  box-shadow: var(--elevation-medium);
 }
 .embedWrapper-1MtIDg.embedFull-1HGV2S .embedVideo-2ixt5A {
   width: calc(100% + 32px) !important;
