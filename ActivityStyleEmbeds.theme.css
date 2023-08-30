@@ -1,7 +1,7 @@
 /**
 * @name ActivityStyleEmbeds
 * @author 11pixels
-* @version 0.3.3
+* @version 0.3.4
 * @invite vUN9sNW
 * @description Changes embeds to look like the (removed) Activity Tab styled embeds
 */
@@ -196,3 +196,7 @@ html body #app-mount .embed-hKpSrO .embedLink-1TLNja::after {
     left: unset;
 }
 /* =============== */
+
+.embedFull-1HGV2S .embedDescription-1DrJxZ+.imageContent-3Av-9c+.embedFooter-3dj0UE {
+  margin-top: 16px !important;
+}
